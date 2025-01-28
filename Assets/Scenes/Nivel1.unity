@@ -380,6 +380,8 @@ MonoBehaviour:
   betterJump: 0
   fallMultiplier: 0.5
   lowJumpMultiplier: 1
+  spriteRenderer: {fileID: 138070945}
+  animator: {fileID: 0}
 --- !u!1 &153491663
 GameObject:
   m_ObjectHideFlags: 0
