@@ -8,6 +8,7 @@ public class FruitManager : MonoBehaviour
 {
     public Text text;
     int Total;
+    public Text levelCleared;
 
     // Start is called before the first frame update
     void Start()
@@ -30,8 +31,15 @@ public class FruitManager : MonoBehaviour
         text.text = "Frutas recolectadas: " + (Total - count) + " / " + Total;
         if (count == 0)
         {
-            text.text = "YAIIII!!!";
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1 );  
+            //MUESTRA EL TEXTO DE NIVEL SUPERADO
+            levelCleared.gameObject.SetActive(true);
+            //CAMBIA DE NIVEL EN UN TIEMPO DE DOS SEGUNDOS
+            Invoke("ChangeScene", 2);
         }
+    }
+
+    void ChangeScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
