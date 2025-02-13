@@ -878,46 +878,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &125896412 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7619610208657570168, guid: b15e280af7c8cce47984da297d7cd097, type: 3}
-  m_PrefabInstance: {fileID: 7619610208788263655}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &125896417 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7619610208657570119, guid: b15e280af7c8cce47984da297d7cd097, type: 3}
-  m_PrefabInstance: {fileID: 7619610208788263655}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &125896418 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 7619610208657570118, guid: b15e280af7c8cce47984da297d7cd097, type: 3}
-  m_PrefabInstance: {fileID: 7619610208788263655}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &125896420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125896412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67f106e453f614243b5c2f43c890777d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerSelected: 2
-  animator: {fileID: 125896417}
-  spriteRenderer: {fileID: 125896418}
-  playerController:
-  - {fileID: 9100000, guid: 7bf4eafe11a03c243af6cb40421b9f87, type: 2}
-  - {fileID: 9100000, guid: dfc7e49d1f126cf43a9837a97ce4d5fe, type: 2}
-  - {fileID: 9100000, guid: 514ae488ccf7aef439d533e56c26d4e0, type: 2}
-  - {fileID: 9100000, guid: 1c7076fd1900b0f46bd9f7361d042ff4, type: 2}
-  playerRenderer:
-  - {fileID: -6367560908665664636, guid: cd947491a13509945aa1b644f9db3ef2, type: 3}
-  - {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
-  - {fileID: -6367560908665664636, guid: d348dff3819df794186a80cb95777629, type: 3}
-  - {fileID: -6367560908665664636, guid: 3750f45c844123341b9a777a96cb1eca, type: 3}
 --- !u!1 &160160919
 GameObject:
   m_ObjectHideFlags: 0
@@ -11274,14 +11234,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7619610208657570114, guid: b15e280af7c8cce47984da297d7cd097, type: 3}
-      propertyPath: jumpSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7619610208657570114, guid: b15e280af7c8cce47984da297d7cd097, type: 3}
-      propertyPath: doubleJumpSpeed
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 7619610208657570117, guid: b15e280af7c8cce47984da297d7cd097, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11325,10 +11277,6 @@ PrefabInstance:
     - target: {fileID: 7619610208657570117, guid: b15e280af7c8cce47984da297d7cd097, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7619610208657570118, guid: b15e280af7c8cce47984da297d7cd097, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7619610208657570168, guid: b15e280af7c8cce47984da297d7cd097, type: 3}
       propertyPath: m_Name
