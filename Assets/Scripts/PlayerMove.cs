@@ -71,7 +71,7 @@ public class PlayerMove : MonoBehaviour
             //animator.SetBool("DoubleJump", false);
             animator.SetBool("Falling", false);
 
-            if (rb2d.velocity.x != 0)
+            if (Mathf.Round(rb2d.velocity.x) != 0)
             {
                 animator.SetBool("Run", true);
             }
